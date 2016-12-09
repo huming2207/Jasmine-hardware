@@ -6327,20 +6327,20 @@ Standard 1-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="U$2" library="AMC7135_CC_Regulator" deviceset="AMC7135_CC_REGULATOR" device=""/>
 <part name="U$3" library="AMC7135_CC_Regulator" deviceset="AMC7135_CC_REGULATOR" device=""/>
 <part name="U$4" library="AMC7135_CC_Regulator" deviceset="AMC7135_CC_REGULATOR" device=""/>
-<part name="J1" library="SparkFun-Connectors" deviceset="M01" device="PTH_2MM"/>
-<part name="J2" library="SparkFun-Connectors" deviceset="M01" device="PTH_2MM"/>
-<part name="J3" library="SparkFun-Connectors" deviceset="M01" device="PTH_2MM"/>
-<part name="J4" library="SparkFun-Connectors" deviceset="M01" device="PTH_2MM"/>
-<part name="J5" library="SparkFun-Connectors" deviceset="M01" device="PTH_2MM"/>
-<part name="J6" library="SparkFun-Connectors" deviceset="M01" device="PTH_2MM"/>
-<part name="J7" library="SparkFun-Connectors" deviceset="M01" device="PTH_2MM"/>
-<part name="J8" library="SparkFun-Connectors" deviceset="M01" device="PTH_2MM"/>
-<part name="J9" library="SparkFun-Connectors" deviceset="M01" device="PTH_2MM"/>
-<part name="J10" library="SparkFun-Connectors" deviceset="M01" device="PTH_2MM"/>
-<part name="J11" library="SparkFun-Connectors" deviceset="M01" device="PTH_2MM"/>
-<part name="J12" library="SparkFun-Connectors" deviceset="M01" device="PTH_2MM"/>
-<part name="J13" library="SparkFun-Connectors" deviceset="M01" device="PTH_2MM"/>
-<part name="J14" library="SparkFun-Connectors" deviceset="M01" device="PTH_2MM"/>
+<part name="J1" library="SparkFun-Connectors" deviceset="M01" device="PTH_2MM" value="LED_R"/>
+<part name="J2" library="SparkFun-Connectors" deviceset="M01" device="PTH_2MM" value="LED_G"/>
+<part name="J3" library="SparkFun-Connectors" deviceset="M01" device="PTH_2MM" value="LED_B"/>
+<part name="J4" library="SparkFun-Connectors" deviceset="M01" device="PTH_2MM" value="JMP_BLDR"/>
+<part name="J5" library="SparkFun-Connectors" deviceset="M01" device="PTH_2MM" value="LED_W"/>
+<part name="J6" library="SparkFun-Connectors" deviceset="M01" device="PTH_2MM" value="GND"/>
+<part name="J7" library="SparkFun-Connectors" deviceset="M01" device="PTH_2MM" value="GND"/>
+<part name="J8" library="SparkFun-Connectors" deviceset="M01" device="PTH_2MM" value="Vin"/>
+<part name="J9" library="SparkFun-Connectors" deviceset="M01" device="PTH_2MM" value="Tx"/>
+<part name="J10" library="SparkFun-Connectors" deviceset="M01" device="PTH_2MM" value="Rx"/>
+<part name="J11" library="SparkFun-Connectors" deviceset="M01" device="PTH_2MM" value="JMP_RESET"/>
+<part name="J12" library="SparkFun-Connectors" deviceset="M01" device="PTH_2MM" value="ADC"/>
+<part name="J13" library="SparkFun-Connectors" deviceset="M01" device="PTH_2MM" value="+3v3"/>
+<part name="J14" library="SparkFun-Connectors" deviceset="M01" device="PTH_2MM" value="GND"/>
 </parts>
 <sheets>
 <sheet>

@@ -6405,6 +6405,12 @@ In this library the device names are the same as the pin names of the symbols, t
 <junction x="5.08" y="48.26"/>
 <junction x="5.08" y="66.04"/>
 <junction x="5.08" y="83.82"/>
+<junction x="10.16" y="83.82"/>
+<pinref part="U$1" gate="A" pin="GND"/>
+<junction x="10.16" y="66.04"/>
+<junction x="10.16" y="48.26"/>
+<pinref part="U$4" gate="A" pin="GND"/>
+<junction x="10.16" y="30.48"/>
 </segment>
 </net>
 <net name="+3V3" class="0">

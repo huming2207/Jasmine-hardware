@@ -7190,8 +7190,10 @@ Basic 0.1" spaced jumper. Use with breakaway headers.</description>
 <part name="TX" library="testpad" deviceset="TP" device="B2,54"/>
 <part name="RX" library="testpad" deviceset="TP" device="B2,54"/>
 <part name="3V3" library="testpad" deviceset="TP" device="B2,54"/>
-<part name="JP1" library="SparkFun-Retired" deviceset="JUMPER-2" device="SMD-NO" value="RST"/>
+<part name="JP1" library="SparkFun-Retired" deviceset="JUMPER-2" device="SMD-NO" value="HWRST"/>
 <part name="JP2" library="SparkFun-Retired" deviceset="JUMPER-2" device="SMD-NO" value="BOOT"/>
+<part name="JP3" library="SparkFun-Retired" deviceset="JUMPER-2" device="SMD-NO" value="RST"/>
+<part name="GND1" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7233,6 +7235,8 @@ Basic 0.1" spaced jumper. Use with breakaway headers.</description>
 <instance part="3V3" gate="G$1" x="-78.74" y="-25.4"/>
 <instance part="JP1" gate="A" x="-154.94" y="33.02"/>
 <instance part="JP2" gate="A" x="-154.94" y="5.08"/>
+<instance part="JP3" gate="A" x="-7.62" y="-7.62"/>
+<instance part="GND1" gate="1" x="-7.62" y="-22.86"/>
 </instances>
 <busses>
 </busses>
@@ -7306,6 +7310,13 @@ Basic 0.1" spaced jumper. Use with breakaway headers.</description>
 <junction x="-154.94" y="2.54"/>
 <junction x="-162.56" y="-2.54"/>
 <pinref part="JP2" gate="A" pin="1"/>
+</segment>
+<segment>
+<pinref part="JP3" gate="A" pin="1"/>
+<wire x1="-7.62" y1="-10.16" x2="-7.62" y2="-20.32" width="0.1524" layer="91"/>
+<pinref part="GND1" gate="1" pin="GND"/>
+<junction x="-7.62" y="-10.16"/>
+<junction x="-7.62" y="-20.32"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -7574,6 +7585,21 @@ Basic 0.1" spaced jumper. Use with breakaway headers.</description>
 <wire x1="-134.62" y1="-17.78" x2="-129.54" y2="-17.78" width="0.1524" layer="91"/>
 <label x="-132.08" y="-17.78" size="1.778" layer="95"/>
 <pinref part="LW" gate="G$1" pin="TP"/>
+</segment>
+</net>
+<net name="GPIO12" class="0">
+<segment>
+<pinref part="JP3" gate="A" pin="2"/>
+<wire x1="-5.08" y1="-10.16" x2="-5.08" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="-20.32" x2="25.4" y2="-20.32" width="0.1524" layer="91"/>
+<label x="25.4" y="-20.32" size="1.778" layer="95"/>
+<junction x="-5.08" y="-10.16"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="GPIO12"/>
+<wire x1="-76.2" y1="88.9" x2="-83.82" y2="88.9" width="0.1524" layer="91"/>
+<label x="-88.9" y="88.9" size="1.778" layer="95"/>
+<junction x="-76.2" y="88.9"/>
 </segment>
 </net>
 </nets>
